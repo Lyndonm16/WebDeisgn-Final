@@ -15,18 +15,19 @@ table{
 }
 
 #left{
-	width:10%;
+	width:3%;
 	background-color:#d7d7d8;
 	 transition: width 1s;
 }
 #left:hover{
-	width:30%;
+	width:8%;
 	
 }
 
 #right{
 	width:50%;
-	background-color="#d2d8c7"
+	background-color:"#d2d8c7";
+	padding-left:5%;
 }
 
 
