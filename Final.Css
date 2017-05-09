@@ -16,15 +16,45 @@ table{
 
 #left{
 	width:10%;
-	background-color:#1B1B1D;
+	background-color:#d7d7d8;
+	 transition: width 1s;
+}
+#left:hover{
+	width:30%;
+	
 }
 
 #right{
 	width:50%;
-	valign:top;
 	background-color="#d2d8c7"
 }
 
 
 
-//menu style
+/* menu bar style*/
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+   
+}
+li{
+	background-color:white;
+	margin-bottom:25px;
+	
+}
+li a {
+	font-weight:bold;
+    display: block;
+    color:#004a77;
+    padding: 8px 16px;
+    text-decoration: none;
+	transition:  1s;
+}
+li a:hover {
+    background-color: #00adee;
+    color: white;
+	text-align:center;
+	text-align:center;
+}
