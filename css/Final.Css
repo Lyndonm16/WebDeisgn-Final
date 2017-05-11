@@ -19,6 +19,7 @@ table{
 	width:10%;
 	background-color:#d7d7d8;
 	transition: width 1s;
+	padding-top:175px;
 	
 }
 
@@ -34,7 +35,7 @@ table{
 /* menu bar style*/
 ul{
 	position:relative;
-	top:200px;
+	top:25px;
     list-style-type: none;
     margin: 0;
     padding: 0;
