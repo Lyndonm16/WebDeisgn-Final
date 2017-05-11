@@ -10,14 +10,14 @@ font-family: 'Trebuchet MS',verdana;
 table{
 	width : 100%;
 	height : 100%;
-	padding-top :-10PX; 
 	border:0;
 }
 
 #left{
+	position:relative;
 	width:8%;
 	background-color:#d7d7d8;
-	 transition: width 1s;
+	transition: width 1s;
 }
 #left:hover{
 	width:8%;
@@ -25,7 +25,7 @@ table{
 }
 
 #right{
-	margin: -20px; 
+	
 	width:50%;
 	background-color:"#d2d8c7";
 	padding-left:5%;
@@ -33,6 +33,9 @@ table{
 
 /* menu bar style*/
 ul{
+	
+	position:absolute;
+	top:200px;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -60,3 +63,5 @@ li a:hover {
 	width:90%;
 	margin-left:20%;
 }
+/*menu bar positioning*/
+
