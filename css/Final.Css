@@ -4,6 +4,10 @@ font-family: 'Trebuchet MS',verdana;
 
 }
 
+h1,h2,h3,h4{
+	color:#004a77;
+}
+
 table{
  width : 100%;
  height : auto%;
