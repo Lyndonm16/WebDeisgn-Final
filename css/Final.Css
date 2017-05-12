@@ -44,8 +44,8 @@ ul{
 li{
 	background-color:white;
 	margin-bottom:25px;
-	
 }
+
 li a {
 	font-weight:bold;
     display: block;
@@ -61,6 +61,9 @@ li a:hover {
 	text-align:center;
 	width:90%;
 	margin-left:20%;
+}
+.active{
+	background-color:#00adee;
 }
 /* product page pictures styling*/
 
