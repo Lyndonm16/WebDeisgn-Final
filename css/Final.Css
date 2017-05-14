@@ -1,7 +1,7 @@
 body{
-
-font-family: 'Trebuchet MS',verdana;
-
+	
+	font-family: 'Trebuchet MS',verdana;
+	
 }
 
 h1,h2,h3,h4{
@@ -9,8 +9,8 @@ h1,h2,h3,h4{
 }
 
 table{
- width : 100%;
- height : auto%;
+	width : 100%;
+	height : auto%;
 }
 
 #left{
@@ -25,7 +25,7 @@ table{
 
 
 #right{
-		
+	
 	width:85%;
 	background-color:"#d2d8c7";
 	padding-right:5%;
@@ -39,7 +39,7 @@ ul{
     margin: 0;
     padding: 0;
     width: 100%;
-   
+	
 }
 li{
 	background-color:white;
@@ -52,7 +52,8 @@ li a {
     color:#004a77;
     padding: 8px 16px;
     text-decoration: none;
-	transition:  1s;
+	transition:  1.5s;
+	transition-timing-function: ease-in-out;
 }
 li a:hover {
     background-color: #00adee;
