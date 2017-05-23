@@ -69,9 +69,29 @@ li a:hover {
 /* product page pictures styling*/
 
 .picture{
-	height:100%;
-	width:90%;
+	height:250px;
+	width:300px;
+	background-size: 100% 100%;
+	background-position: center;
+	text-align:left;
+	transition:  1.5s;
+	color:#00adee;
+	font-size:20px;
 }
+.picture:hover{
+	text-align:center;
+	color:#ff8100;
+	
+}
+
+
+td{
+	
+	background-repeat:no-repeat;
+}
+
+
+
 
 
 
